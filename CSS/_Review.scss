@@ -1,0 +1,41 @@
+.review{
+    .container{
+        padding:15px 0px 0px;
+        .reviews-content{
+            padding: 10px;
+            .review-boxs {
+                .box{
+                    background-color: #fff;
+                    text-align: center;
+                    padding:30px 20px;
+                    border-radius: 10px;
+                    box-shadow: var(--box-shadow);
+                    outline: var(--outline);
+                    outline-offset: -15px;
+                    &:hover{
+                        outline: var(--outline-hover);
+                        outline-offset: 0;
+                    }
+                    img{
+                        border-radius: 50%;
+                        object-fit: contain;
+                        margin: 7px;
+                    }
+                    p{
+                        color: var(--light-color);
+                    }
+                    h3{
+                        color: var(--black);
+                        font-size: 25px;
+                    }
+                    .starts{
+                        font-size: 18px;
+                        color: var(--orange);
+                    }
+                }
+            }
+        }
+
+    }
+
+}
