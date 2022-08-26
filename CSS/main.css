@@ -642,6 +642,9 @@ footer .container .footer-boxs .box .email {
   border-radius: 7px;
   background-color: #eee;
 }
+footer .container .footer-boxs .box .btn {
+  display: block;
+}
 footer .container .footer-boxs .box .payment-img {
   margin-top: 20px;
   height: 30px;
