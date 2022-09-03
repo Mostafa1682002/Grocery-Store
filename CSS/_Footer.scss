@@ -27,15 +27,16 @@ footer{
                     display: block ;
                     margin-bottom: 7px;
                     color: var(--light-color);
-                    &:hover{
-                        i{
-                            margin-right: 10px;
-                        }
-                        color: var(--orange);
-                    }
                     i{
                         color: var(--orange);
                         margin-right:7px ;
+                        width: 20px;
+                    }
+                    &:hover{
+                        i{
+                            margin-right: 12px;
+                        }
+                        color: var(--orange);
                     }
                 }
                 .share{
@@ -75,7 +76,7 @@ footer{
             }
         }
         .cridet{
-            padding: 15px 0;
+            padding: 20px 0 5px;
             text-transform: capitalize;
             border-top: var(--border);
             text-align: center;
@@ -83,6 +84,11 @@ footer{
             span{
                 color: var(--orange);
                 font-weight: 600;
+            }
+            @media (max-width:768px) {
+                &{
+                    font-size: 16px;
+                }
             }
         }
     }

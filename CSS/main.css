@@ -38,7 +38,7 @@ body {
   border-radius: 10px;
   cursor: pointer;
   text-transform: capitalize;
-  border: 2px solid var(--black);
+  border: 1px solid var(--black);
   background-color: #fff;
 }
 
@@ -330,6 +330,17 @@ header .container .login-form p a {
   color: var(--orange);
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  header .container .login-form h3 {
+    font-size: 20px;
+  }
+  header .container .login-form .box {
+    padding: 5px;
+  }
+  header .container .login-form p {
+    font-size: 12px;
+  }
+}
 header .container .login-form .btn {
   display: block;
   margin: 12px auto 3px;
@@ -368,6 +379,14 @@ header .container .login-form.active {
   padding: 10px;
   color: var(--light-color);
 }
+@media (max-width: 768px) {
+  .home .content h3 {
+    font-size: 20px;
+  }
+  .home .content p {
+    font-size: 16px;
+  }
+}
 
 /*End Home*/
 /*Start Features*/
@@ -405,6 +424,14 @@ header .container .login-form.active {
 .features .container .content-boxs .box p {
   color: var(--light-color);
   font-size: 17px;
+}
+@media (max-width: 768px) {
+  .features .container .content-boxs .box h3 {
+    font-size: 20px;
+  }
+  .features .container .content-boxs .box p {
+    font-size: 16px;
+  }
 }
 
 /*End Features*/
@@ -450,6 +477,20 @@ header .container .login-form.active {
 .products .container .slider .product .starts {
   color: var(--orange);
   font-size: 20px;
+}
+@media (max-width: 768px) {
+  .products .container .slider .product h3 {
+    font-size: 20px;
+  }
+  .products .container .slider .product .price {
+    font-size: 16px;
+  }
+  .products .container .slider .product .price span {
+    font-size: 14px;
+  }
+  .products .container .slider .product .starts {
+    font-size: 18px;
+  }
 }
 
 /*End products*/
@@ -558,7 +599,7 @@ header .container .login-form.active {
   color: var(--light-color);
 }
 .blogs .container .blogs-box .blog .content .icons i {
-  padding: 5px;
+  width: 20px;
   color: var(--orange);
 }
 .blogs .container .blogs-box .blog .content h3 {
@@ -605,15 +646,16 @@ footer .container .footer-boxs .box .links {
   margin-bottom: 7px;
   color: var(--light-color);
 }
+footer .container .footer-boxs .box .links i {
+  color: var(--orange);
+  margin-right: 7px;
+  width: 20px;
+}
 footer .container .footer-boxs .box .links:hover {
   color: var(--orange);
 }
 footer .container .footer-boxs .box .links:hover i {
-  margin-right: 10px;
-}
-footer .container .footer-boxs .box .links i {
-  color: var(--orange);
-  margin-right: 7px;
+  margin-right: 12px;
 }
 footer .container .footer-boxs .box .share {
   margin: 20px 0px;
@@ -650,7 +692,7 @@ footer .container .footer-boxs .box .payment-img {
   height: 30px;
 }
 footer .container .cridet {
-  padding: 15px 0;
+  padding: 20px 0 5px;
   text-transform: capitalize;
   border-top: var(--border);
   text-align: center;
@@ -659,6 +701,11 @@ footer .container .cridet {
 footer .container .cridet span {
   color: var(--orange);
   font-weight: 600;
+}
+@media (max-width: 768px) {
+  footer .container .cridet {
+    font-size: 16px;
+  }
 }
 
 /*End Footer*//*# sourceMappingURL=main.css.map */

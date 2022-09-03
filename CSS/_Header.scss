@@ -242,6 +242,17 @@ header {
                     text-decoration: underline;
                 }
             }
+            @media (max-width:768px) {
+                & h3{
+                    font-size: 20px;
+                }
+                & .box{
+                    padding: 5px;
+                }
+                & p{
+                    font-size: 12px;
+                }
+            }
             .btn{
                 display: block;
                 margin:12px auto 3px;

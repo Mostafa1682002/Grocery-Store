@@ -33,6 +33,14 @@
                     color: var(--light-color);
                     font-size: 17px;
                 }
+                @media (max-width:768px) {
+                    & h3{
+                        font-size: 20px;
+                    }
+                    & p{
+                        font-size: 16px;
+                    }
+                }
             }
         }
     }
