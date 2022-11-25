@@ -42,13 +42,18 @@ body {
   background-color: #fff;
 }
 
+@media (max-width: 768px) {
+  .btn {
+    font-size: 16px;
+  }
+}
 .btn:hover {
   color: #fff;
   background-color: var(--orange);
 }
 
 section {
-  padding: 20px 15px 0px;
+  padding: 20px 0px;
 }
 
 .title-section {
@@ -320,7 +325,7 @@ header .container .login-form .box {
   border: var(--border);
   padding: 7px 10px;
   margin: 7px 0;
-  font-size: 17px;
+  font-size: 16px;
   background-color: #eee;
 }
 header .container .login-form p {
@@ -333,9 +338,6 @@ header .container .login-form p a {
 @media (max-width: 768px) {
   header .container .login-form h3 {
     font-size: 20px;
-  }
-  header .container .login-form .box {
-    padding: 5px;
   }
   header .container .login-form p {
     font-size: 12px;
@@ -392,13 +394,8 @@ header .container .login-form.active {
 /*Start Features*/
 .features .container .content-boxs {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 15px;
-}
-@media (max-width: 500px) {
-  .features .container .content-boxs {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  }
 }
 .features .container .content-boxs .box {
   background-color: #fff;
@@ -570,13 +567,8 @@ header .container .login-form.active {
 /*Start Blogs*/
 .blogs .container .blogs-box {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 15px;
-}
-@media (max-width: 500px) {
-  .blogs .container .blogs-box {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  }
 }
 .blogs .container .blogs-box .blog {
   background-color: #fff;

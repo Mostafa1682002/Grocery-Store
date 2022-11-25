@@ -38,12 +38,17 @@ body{
   border:1px solid var(--black);
   background-color: #fff;
 }
+@media (max-width:768px) {
+  .btn{
+    font-size: 16px;
+  }
+}
 .btn:hover{
   color: #fff;
   background-color: var(--orange);
 }
 section{
-  padding: 20px 15px 0px;
+  padding: 20px 0px;
 }
 .title-section{
   text-align: center;
